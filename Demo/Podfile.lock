@@ -1,0 +1,17 @@
+PODS:
+  - FDGroupIconView (0.1.0):
+    - SDWebImage (~> 3.8.1)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+
+DEPENDENCIES:
+  - FDGroupIconView (~> 0.1.0)
+
+SPEC CHECKSUMS:
+  FDGroupIconView: 1a6c4ba872759e289666e4ab3fcdc064cf82df60
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+
+PODFILE CHECKSUM: 555b3a31a971a43e2c8e97d6db24d984d79a8835
+
+COCOAPODS: 1.0.1

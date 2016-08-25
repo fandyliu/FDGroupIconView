@@ -7,171 +7,192 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D7E07D251D6EE9CA00F6C268 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E07D241D6EE9CA00F6C268 /* main.m */; };
-		D7E07D281D6EE9CA00F6C268 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E07D271D6EE9CA00F6C268 /* AppDelegate.m */; };
-		D7E07D2B1D6EE9CA00F6C268 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E07D2A1D6EE9CA00F6C268 /* ViewController.m */; };
-		D7E07D2E1D6EE9CA00F6C268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E07D2C1D6EE9CA00F6C268 /* Main.storyboard */; };
-		D7E07D301D6EE9CA00F6C268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E07D2F1D6EE9CA00F6C268 /* Assets.xcassets */; };
-		D7E07D331D6EE9CA00F6C268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E07D311D6EE9CA00F6C268 /* LaunchScreen.storyboard */; };
-		D7E07D3E1D6EE9CA00F6C268 /* FDGroupIconViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E07D3D1D6EE9CA00F6C268 /* FDGroupIconViewDemoTests.m */; };
-		D7E07D491D6EE9CA00F6C268 /* FDGroupIconViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E07D481D6EE9CA00F6C268 /* FDGroupIconViewDemoUITests.m */; };
-		D7E07D5C1D6EEA1500F6C268 /* FDGroupIconResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D7E07D571D6EEA1500F6C268 /* FDGroupIconResource.bundle */; };
-		D7E07D5D1D6EEA1500F6C268 /* FDGroupIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E07D591D6EEA1500F6C268 /* FDGroupIconView.m */; };
-		D7E07D5E1D6EEA1500F6C268 /* FDIconImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E07D5B1D6EEA1500F6C268 /* FDIconImageView.m */; };
+		6948846CC4B152AF1BA449A6 /* libPods-FDGroupIconViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7AAA99D5C78DC5C1F6CBCEF /* libPods-FDGroupIconViewDemo.a */; };
+		8A119CD59CAD6451D90E3540 /* libPods-FDGroupIconViewDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 004C125E5DBD1D5D9494B8DE /* libPods-FDGroupIconViewDemoUITests.a */; };
+		CC95C7748511161E46DACBC9 /* libPods-FDGroupIconViewDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56FB4AE71B59D48C9F3E0FDD /* libPods-FDGroupIconViewDemoTests.a */; };
+		D7E07D6D1D6EF3D100F6C268 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E07D6C1D6EF3D100F6C268 /* main.m */; };
+		D7E07D701D6EF3D100F6C268 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E07D6F1D6EF3D100F6C268 /* AppDelegate.m */; };
+		D7E07D731D6EF3D100F6C268 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E07D721D6EF3D100F6C268 /* ViewController.m */; };
+		D7E07D761D6EF3D100F6C268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E07D741D6EF3D100F6C268 /* Main.storyboard */; };
+		D7E07D781D6EF3D100F6C268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E07D771D6EF3D100F6C268 /* Assets.xcassets */; };
+		D7E07D7B1D6EF3D100F6C268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E07D791D6EF3D100F6C268 /* LaunchScreen.storyboard */; };
+		D7E07D861D6EF3D100F6C268 /* FDGroupIconViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E07D851D6EF3D100F6C268 /* FDGroupIconViewDemoTests.m */; };
+		D7E07D911D6EF3D100F6C268 /* FDGroupIconViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E07D901D6EF3D100F6C268 /* FDGroupIconViewDemoUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D7E07D3A1D6EE9CA00F6C268 /* PBXContainerItemProxy */ = {
+		D7E07D821D6EF3D100F6C268 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D7E07D181D6EE9CA00F6C268 /* Project object */;
+			containerPortal = D7E07D601D6EF3D000F6C268 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D7E07D1F1D6EE9CA00F6C268;
+			remoteGlobalIDString = D7E07D671D6EF3D100F6C268;
 			remoteInfo = FDGroupIconViewDemo;
 		};
-		D7E07D451D6EE9CA00F6C268 /* PBXContainerItemProxy */ = {
+		D7E07D8D1D6EF3D100F6C268 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D7E07D181D6EE9CA00F6C268 /* Project object */;
+			containerPortal = D7E07D601D6EF3D000F6C268 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D7E07D1F1D6EE9CA00F6C268;
+			remoteGlobalIDString = D7E07D671D6EF3D100F6C268;
 			remoteInfo = FDGroupIconViewDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D7E07D201D6EE9CA00F6C268 /* FDGroupIconViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDGroupIconViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7E07D241D6EE9CA00F6C268 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D7E07D261D6EE9CA00F6C268 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D7E07D271D6EE9CA00F6C268 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D7E07D291D6EE9CA00F6C268 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D7E07D2A1D6EE9CA00F6C268 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D7E07D2D1D6EE9CA00F6C268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D7E07D2F1D6EE9CA00F6C268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D7E07D321D6EE9CA00F6C268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D7E07D341D6EE9CA00F6C268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7E07D391D6EE9CA00F6C268 /* FDGroupIconViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDGroupIconViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7E07D3D1D6EE9CA00F6C268 /* FDGroupIconViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDGroupIconViewDemoTests.m; sourceTree = "<group>"; };
-		D7E07D3F1D6EE9CA00F6C268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7E07D441D6EE9CA00F6C268 /* FDGroupIconViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDGroupIconViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7E07D481D6EE9CA00F6C268 /* FDGroupIconViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDGroupIconViewDemoUITests.m; sourceTree = "<group>"; };
-		D7E07D4A1D6EE9CA00F6C268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7E07D571D6EEA1500F6C268 /* FDGroupIconResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FDGroupIconResource.bundle; sourceTree = "<group>"; };
-		D7E07D581D6EEA1500F6C268 /* FDGroupIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDGroupIconView.h; sourceTree = "<group>"; };
-		D7E07D591D6EEA1500F6C268 /* FDGroupIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDGroupIconView.m; sourceTree = "<group>"; };
-		D7E07D5A1D6EEA1500F6C268 /* FDIconImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDIconImageView.h; sourceTree = "<group>"; };
-		D7E07D5B1D6EEA1500F6C268 /* FDIconImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDIconImageView.m; sourceTree = "<group>"; };
+		004C125E5DBD1D5D9494B8DE /* libPods-FDGroupIconViewDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FDGroupIconViewDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06ACD8157C67DAE61F0FFA9C /* Pods-FDGroupIconViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDGroupIconViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FDGroupIconViewDemo/Pods-FDGroupIconViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		56FB4AE71B59D48C9F3E0FDD /* libPods-FDGroupIconViewDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FDGroupIconViewDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C3137CA1DF0A7E7AC16792 /* Pods-FDGroupIconViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDGroupIconViewDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FDGroupIconViewDemoTests/Pods-FDGroupIconViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9358C4AE29A559CC23D52A10 /* Pods-FDGroupIconViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDGroupIconViewDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FDGroupIconViewDemoTests/Pods-FDGroupIconViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D87B18490BB6F109A31C61C /* Pods-FDGroupIconViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDGroupIconViewDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FDGroupIconViewDemoUITests/Pods-FDGroupIconViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7AAA99D5C78DC5C1F6CBCEF /* libPods-FDGroupIconViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FDGroupIconViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4F4655C99D70B21D31722A0 /* Pods-FDGroupIconViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDGroupIconViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FDGroupIconViewDemo/Pods-FDGroupIconViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D7E07D681D6EF3D100F6C268 /* FDGroupIconViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDGroupIconViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E07D6C1D6EF3D100F6C268 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7E07D6E1D6EF3D100F6C268 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7E07D6F1D6EF3D100F6C268 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7E07D711D6EF3D100F6C268 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D7E07D721D6EF3D100F6C268 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D7E07D751D6EF3D100F6C268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7E07D771D6EF3D100F6C268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7E07D7A1D6EF3D100F6C268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7E07D7C1D6EF3D100F6C268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E07D811D6EF3D100F6C268 /* FDGroupIconViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDGroupIconViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E07D851D6EF3D100F6C268 /* FDGroupIconViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDGroupIconViewDemoTests.m; sourceTree = "<group>"; };
+		D7E07D871D6EF3D100F6C268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E07D8C1D6EF3D100F6C268 /* FDGroupIconViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDGroupIconViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E07D901D6EF3D100F6C268 /* FDGroupIconViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDGroupIconViewDemoUITests.m; sourceTree = "<group>"; };
+		D7E07D921D6EF3D100F6C268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B284D73A037F2420531EA5 /* Pods-FDGroupIconViewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDGroupIconViewDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FDGroupIconViewDemoUITests/Pods-FDGroupIconViewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D7E07D1D1D6EE9CA00F6C268 /* Frameworks */ = {
+		D7E07D651D6EF3D100F6C268 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6948846CC4B152AF1BA449A6 /* libPods-FDGroupIconViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7E07D361D6EE9CA00F6C268 /* Frameworks */ = {
+		D7E07D7E1D6EF3D100F6C268 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC95C7748511161E46DACBC9 /* libPods-FDGroupIconViewDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7E07D411D6EE9CA00F6C268 /* Frameworks */ = {
+		D7E07D891D6EF3D100F6C268 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A119CD59CAD6451D90E3540 /* libPods-FDGroupIconViewDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D7E07D171D6EE9CA00F6C268 = {
+		0C8A50D8BB96BE488DE753D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D7E07D561D6EEA1500F6C268 /* FDGroupIconView */,
-				D7E07D221D6EE9CA00F6C268 /* FDGroupIconViewDemo */,
-				D7E07D3C1D6EE9CA00F6C268 /* FDGroupIconViewDemoTests */,
-				D7E07D471D6EE9CA00F6C268 /* FDGroupIconViewDemoUITests */,
-				D7E07D211D6EE9CA00F6C268 /* Products */,
+				B7AAA99D5C78DC5C1F6CBCEF /* libPods-FDGroupIconViewDemo.a */,
+				56FB4AE71B59D48C9F3E0FDD /* libPods-FDGroupIconViewDemoTests.a */,
+				004C125E5DBD1D5D9494B8DE /* libPods-FDGroupIconViewDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B07626042B4B2A16AF11FE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4F4655C99D70B21D31722A0 /* Pods-FDGroupIconViewDemo.debug.xcconfig */,
+				06ACD8157C67DAE61F0FFA9C /* Pods-FDGroupIconViewDemo.release.xcconfig */,
+				79C3137CA1DF0A7E7AC16792 /* Pods-FDGroupIconViewDemoTests.debug.xcconfig */,
+				9358C4AE29A559CC23D52A10 /* Pods-FDGroupIconViewDemoTests.release.xcconfig */,
+				9D87B18490BB6F109A31C61C /* Pods-FDGroupIconViewDemoUITests.debug.xcconfig */,
+				F5B284D73A037F2420531EA5 /* Pods-FDGroupIconViewDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7E07D5F1D6EF3D000F6C268 = {
+			isa = PBXGroup;
+			children = (
+				D7E07D6A1D6EF3D100F6C268 /* FDGroupIconViewDemo */,
+				D7E07D841D6EF3D100F6C268 /* FDGroupIconViewDemoTests */,
+				D7E07D8F1D6EF3D100F6C268 /* FDGroupIconViewDemoUITests */,
+				D7E07D691D6EF3D100F6C268 /* Products */,
+				3B07626042B4B2A16AF11FE6 /* Pods */,
+				0C8A50D8BB96BE488DE753D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		D7E07D211D6EE9CA00F6C268 /* Products */ = {
+		D7E07D691D6EF3D100F6C268 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D7E07D201D6EE9CA00F6C268 /* FDGroupIconViewDemo.app */,
-				D7E07D391D6EE9CA00F6C268 /* FDGroupIconViewDemoTests.xctest */,
-				D7E07D441D6EE9CA00F6C268 /* FDGroupIconViewDemoUITests.xctest */,
+				D7E07D681D6EF3D100F6C268 /* FDGroupIconViewDemo.app */,
+				D7E07D811D6EF3D100F6C268 /* FDGroupIconViewDemoTests.xctest */,
+				D7E07D8C1D6EF3D100F6C268 /* FDGroupIconViewDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D7E07D221D6EE9CA00F6C268 /* FDGroupIconViewDemo */ = {
+		D7E07D6A1D6EF3D100F6C268 /* FDGroupIconViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D7E07D261D6EE9CA00F6C268 /* AppDelegate.h */,
-				D7E07D271D6EE9CA00F6C268 /* AppDelegate.m */,
-				D7E07D291D6EE9CA00F6C268 /* ViewController.h */,
-				D7E07D2A1D6EE9CA00F6C268 /* ViewController.m */,
-				D7E07D2C1D6EE9CA00F6C268 /* Main.storyboard */,
-				D7E07D2F1D6EE9CA00F6C268 /* Assets.xcassets */,
-				D7E07D311D6EE9CA00F6C268 /* LaunchScreen.storyboard */,
-				D7E07D341D6EE9CA00F6C268 /* Info.plist */,
-				D7E07D231D6EE9CA00F6C268 /* Supporting Files */,
+				D7E07D6E1D6EF3D100F6C268 /* AppDelegate.h */,
+				D7E07D6F1D6EF3D100F6C268 /* AppDelegate.m */,
+				D7E07D711D6EF3D100F6C268 /* ViewController.h */,
+				D7E07D721D6EF3D100F6C268 /* ViewController.m */,
+				D7E07D741D6EF3D100F6C268 /* Main.storyboard */,
+				D7E07D771D6EF3D100F6C268 /* Assets.xcassets */,
+				D7E07D791D6EF3D100F6C268 /* LaunchScreen.storyboard */,
+				D7E07D7C1D6EF3D100F6C268 /* Info.plist */,
+				D7E07D6B1D6EF3D100F6C268 /* Supporting Files */,
 			);
 			path = FDGroupIconViewDemo;
 			sourceTree = "<group>";
 		};
-		D7E07D231D6EE9CA00F6C268 /* Supporting Files */ = {
+		D7E07D6B1D6EF3D100F6C268 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D7E07D241D6EE9CA00F6C268 /* main.m */,
+				D7E07D6C1D6EF3D100F6C268 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D7E07D3C1D6EE9CA00F6C268 /* FDGroupIconViewDemoTests */ = {
+		D7E07D841D6EF3D100F6C268 /* FDGroupIconViewDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				D7E07D3D1D6EE9CA00F6C268 /* FDGroupIconViewDemoTests.m */,
-				D7E07D3F1D6EE9CA00F6C268 /* Info.plist */,
+				D7E07D851D6EF3D100F6C268 /* FDGroupIconViewDemoTests.m */,
+				D7E07D871D6EF3D100F6C268 /* Info.plist */,
 			);
 			path = FDGroupIconViewDemoTests;
 			sourceTree = "<group>";
 		};
-		D7E07D471D6EE9CA00F6C268 /* FDGroupIconViewDemoUITests */ = {
+		D7E07D8F1D6EF3D100F6C268 /* FDGroupIconViewDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D7E07D481D6EE9CA00F6C268 /* FDGroupIconViewDemoUITests.m */,
-				D7E07D4A1D6EE9CA00F6C268 /* Info.plist */,
+				D7E07D901D6EF3D100F6C268 /* FDGroupIconViewDemoUITests.m */,
+				D7E07D921D6EF3D100F6C268 /* Info.plist */,
 			);
 			path = FDGroupIconViewDemoUITests;
-			sourceTree = "<group>";
-		};
-		D7E07D561D6EEA1500F6C268 /* FDGroupIconView */ = {
-			isa = PBXGroup;
-			children = (
-				D7E07D571D6EEA1500F6C268 /* FDGroupIconResource.bundle */,
-				D7E07D581D6EEA1500F6C268 /* FDGroupIconView.h */,
-				D7E07D591D6EEA1500F6C268 /* FDGroupIconView.m */,
-				D7E07D5A1D6EEA1500F6C268 /* FDIconImageView.h */,
-				D7E07D5B1D6EEA1500F6C268 /* FDIconImageView.m */,
-			);
-			name = FDGroupIconView;
-			path = ../FDGroupIconView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D7E07D1F1D6EE9CA00F6C268 /* FDGroupIconViewDemo */ = {
+		D7E07D671D6EF3D100F6C268 /* FDGroupIconViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7E07D4D1D6EE9CA00F6C268 /* Build configuration list for PBXNativeTarget "FDGroupIconViewDemo" */;
+			buildConfigurationList = D7E07D951D6EF3D100F6C268 /* Build configuration list for PBXNativeTarget "FDGroupIconViewDemo" */;
 			buildPhases = (
-				D7E07D1C1D6EE9CA00F6C268 /* Sources */,
-				D7E07D1D1D6EE9CA00F6C268 /* Frameworks */,
-				D7E07D1E1D6EE9CA00F6C268 /* Resources */,
+				2DE7A65719B75D86E9D6EAF7 /* [CP] Check Pods Manifest.lock */,
+				D7E07D641D6EF3D100F6C268 /* Sources */,
+				D7E07D651D6EF3D100F6C268 /* Frameworks */,
+				D7E07D661D6EF3D100F6C268 /* Resources */,
+				63DB51A896ED540A32E40F38 /* [CP] Embed Pods Frameworks */,
+				1533FD19C2712DAA27606ADD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,68 +200,73 @@
 			);
 			name = FDGroupIconViewDemo;
 			productName = FDGroupIconViewDemo;
-			productReference = D7E07D201D6EE9CA00F6C268 /* FDGroupIconViewDemo.app */;
+			productReference = D7E07D681D6EF3D100F6C268 /* FDGroupIconViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D7E07D381D6EE9CA00F6C268 /* FDGroupIconViewDemoTests */ = {
+		D7E07D801D6EF3D100F6C268 /* FDGroupIconViewDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7E07D501D6EE9CA00F6C268 /* Build configuration list for PBXNativeTarget "FDGroupIconViewDemoTests" */;
+			buildConfigurationList = D7E07D981D6EF3D100F6C268 /* Build configuration list for PBXNativeTarget "FDGroupIconViewDemoTests" */;
 			buildPhases = (
-				D7E07D351D6EE9CA00F6C268 /* Sources */,
-				D7E07D361D6EE9CA00F6C268 /* Frameworks */,
-				D7E07D371D6EE9CA00F6C268 /* Resources */,
+				6BF8D8193603391977A1B34A /* [CP] Check Pods Manifest.lock */,
+				D7E07D7D1D6EF3D100F6C268 /* Sources */,
+				D7E07D7E1D6EF3D100F6C268 /* Frameworks */,
+				D7E07D7F1D6EF3D100F6C268 /* Resources */,
+				FFD5D8BE4F496E9679D98C47 /* [CP] Embed Pods Frameworks */,
+				26263EDC67D92498A788A132 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D7E07D3B1D6EE9CA00F6C268 /* PBXTargetDependency */,
+				D7E07D831D6EF3D100F6C268 /* PBXTargetDependency */,
 			);
 			name = FDGroupIconViewDemoTests;
 			productName = FDGroupIconViewDemoTests;
-			productReference = D7E07D391D6EE9CA00F6C268 /* FDGroupIconViewDemoTests.xctest */;
+			productReference = D7E07D811D6EF3D100F6C268 /* FDGroupIconViewDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D7E07D431D6EE9CA00F6C268 /* FDGroupIconViewDemoUITests */ = {
+		D7E07D8B1D6EF3D100F6C268 /* FDGroupIconViewDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7E07D531D6EE9CA00F6C268 /* Build configuration list for PBXNativeTarget "FDGroupIconViewDemoUITests" */;
+			buildConfigurationList = D7E07D9B1D6EF3D100F6C268 /* Build configuration list for PBXNativeTarget "FDGroupIconViewDemoUITests" */;
 			buildPhases = (
-				D7E07D401D6EE9CA00F6C268 /* Sources */,
-				D7E07D411D6EE9CA00F6C268 /* Frameworks */,
-				D7E07D421D6EE9CA00F6C268 /* Resources */,
+				EED33A0AAE30FD6CBEB1A729 /* [CP] Check Pods Manifest.lock */,
+				D7E07D881D6EF3D100F6C268 /* Sources */,
+				D7E07D891D6EF3D100F6C268 /* Frameworks */,
+				D7E07D8A1D6EF3D100F6C268 /* Resources */,
+				0335BF8441C824664E45C69C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D7E07D461D6EE9CA00F6C268 /* PBXTargetDependency */,
+				D7E07D8E1D6EF3D100F6C268 /* PBXTargetDependency */,
 			);
 			name = FDGroupIconViewDemoUITests;
 			productName = FDGroupIconViewDemoUITests;
-			productReference = D7E07D441D6EE9CA00F6C268 /* FDGroupIconViewDemoUITests.xctest */;
+			productReference = D7E07D8C1D6EF3D100F6C268 /* FDGroupIconViewDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D7E07D181D6EE9CA00F6C268 /* Project object */ = {
+		D7E07D601D6EF3D000F6C268 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = fandy;
 				TargetAttributes = {
-					D7E07D1F1D6EE9CA00F6C268 = {
+					D7E07D671D6EF3D100F6C268 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
-					D7E07D381D6EE9CA00F6C268 = {
+					D7E07D801D6EF3D100F6C268 = {
 						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = D7E07D1F1D6EE9CA00F6C268;
+						TestTargetID = D7E07D671D6EF3D100F6C268;
 					};
-					D7E07D431D6EE9CA00F6C268 = {
+					D7E07D8B1D6EF3D100F6C268 = {
 						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = D7E07D1F1D6EE9CA00F6C268;
+						TestTargetID = D7E07D671D6EF3D100F6C268;
 					};
 				};
 			};
-			buildConfigurationList = D7E07D1B1D6EE9CA00F6C268 /* Build configuration list for PBXProject "FDGroupIconViewDemo" */;
+			buildConfigurationList = D7E07D631D6EF3D000F6C268 /* Build configuration list for PBXProject "FDGroupIconViewDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -248,38 +274,37 @@
 				en,
 				Base,
 			);
-			mainGroup = D7E07D171D6EE9CA00F6C268;
-			productRefGroup = D7E07D211D6EE9CA00F6C268 /* Products */;
+			mainGroup = D7E07D5F1D6EF3D000F6C268;
+			productRefGroup = D7E07D691D6EF3D100F6C268 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D7E07D1F1D6EE9CA00F6C268 /* FDGroupIconViewDemo */,
-				D7E07D381D6EE9CA00F6C268 /* FDGroupIconViewDemoTests */,
-				D7E07D431D6EE9CA00F6C268 /* FDGroupIconViewDemoUITests */,
+				D7E07D671D6EF3D100F6C268 /* FDGroupIconViewDemo */,
+				D7E07D801D6EF3D100F6C268 /* FDGroupIconViewDemoTests */,
+				D7E07D8B1D6EF3D100F6C268 /* FDGroupIconViewDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D7E07D1E1D6EE9CA00F6C268 /* Resources */ = {
+		D7E07D661D6EF3D100F6C268 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7E07D331D6EE9CA00F6C268 /* LaunchScreen.storyboard in Resources */,
-				D7E07D301D6EE9CA00F6C268 /* Assets.xcassets in Resources */,
-				D7E07D5C1D6EEA1500F6C268 /* FDGroupIconResource.bundle in Resources */,
-				D7E07D2E1D6EE9CA00F6C268 /* Main.storyboard in Resources */,
+				D7E07D7B1D6EF3D100F6C268 /* LaunchScreen.storyboard in Resources */,
+				D7E07D781D6EF3D100F6C268 /* Assets.xcassets in Resources */,
+				D7E07D761D6EF3D100F6C268 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7E07D371D6EE9CA00F6C268 /* Resources */ = {
+		D7E07D7F1D6EF3D100F6C268 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7E07D421D6EE9CA00F6C268 /* Resources */ = {
+		D7E07D8A1D6EF3D100F6C268 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -288,63 +313,184 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0335BF8441C824664E45C69C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FDGroupIconViewDemoUITests/Pods-FDGroupIconViewDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1533FD19C2712DAA27606ADD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FDGroupIconViewDemo/Pods-FDGroupIconViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26263EDC67D92498A788A132 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FDGroupIconViewDemoTests/Pods-FDGroupIconViewDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DE7A65719B75D86E9D6EAF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		63DB51A896ED540A32E40F38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FDGroupIconViewDemo/Pods-FDGroupIconViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BF8D8193603391977A1B34A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EED33A0AAE30FD6CBEB1A729 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFD5D8BE4F496E9679D98C47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FDGroupIconViewDemoTests/Pods-FDGroupIconViewDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		D7E07D1C1D6EE9CA00F6C268 /* Sources */ = {
+		D7E07D641D6EF3D100F6C268 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7E07D2B1D6EE9CA00F6C268 /* ViewController.m in Sources */,
-				D7E07D281D6EE9CA00F6C268 /* AppDelegate.m in Sources */,
-				D7E07D251D6EE9CA00F6C268 /* main.m in Sources */,
-				D7E07D5D1D6EEA1500F6C268 /* FDGroupIconView.m in Sources */,
-				D7E07D5E1D6EEA1500F6C268 /* FDIconImageView.m in Sources */,
+				D7E07D731D6EF3D100F6C268 /* ViewController.m in Sources */,
+				D7E07D701D6EF3D100F6C268 /* AppDelegate.m in Sources */,
+				D7E07D6D1D6EF3D100F6C268 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7E07D351D6EE9CA00F6C268 /* Sources */ = {
+		D7E07D7D1D6EF3D100F6C268 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7E07D3E1D6EE9CA00F6C268 /* FDGroupIconViewDemoTests.m in Sources */,
+				D7E07D861D6EF3D100F6C268 /* FDGroupIconViewDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7E07D401D6EE9CA00F6C268 /* Sources */ = {
+		D7E07D881D6EF3D100F6C268 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7E07D491D6EE9CA00F6C268 /* FDGroupIconViewDemoUITests.m in Sources */,
+				D7E07D911D6EF3D100F6C268 /* FDGroupIconViewDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D7E07D3B1D6EE9CA00F6C268 /* PBXTargetDependency */ = {
+		D7E07D831D6EF3D100F6C268 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D7E07D1F1D6EE9CA00F6C268 /* FDGroupIconViewDemo */;
-			targetProxy = D7E07D3A1D6EE9CA00F6C268 /* PBXContainerItemProxy */;
+			target = D7E07D671D6EF3D100F6C268 /* FDGroupIconViewDemo */;
+			targetProxy = D7E07D821D6EF3D100F6C268 /* PBXContainerItemProxy */;
 		};
-		D7E07D461D6EE9CA00F6C268 /* PBXTargetDependency */ = {
+		D7E07D8E1D6EF3D100F6C268 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D7E07D1F1D6EE9CA00F6C268 /* FDGroupIconViewDemo */;
-			targetProxy = D7E07D451D6EE9CA00F6C268 /* PBXContainerItemProxy */;
+			target = D7E07D671D6EF3D100F6C268 /* FDGroupIconViewDemo */;
+			targetProxy = D7E07D8D1D6EF3D100F6C268 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D7E07D2C1D6EE9CA00F6C268 /* Main.storyboard */ = {
+		D7E07D741D6EF3D100F6C268 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D7E07D2D1D6EE9CA00F6C268 /* Base */,
+				D7E07D751D6EF3D100F6C268 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D7E07D311D6EE9CA00F6C268 /* LaunchScreen.storyboard */ = {
+		D7E07D791D6EF3D100F6C268 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D7E07D321D6EE9CA00F6C268 /* Base */,
+				D7E07D7A1D6EF3D100F6C268 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -352,7 +498,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D7E07D4B1D6EE9CA00F6C268 /* Debug */ = {
+		D7E07D931D6EF3D100F6C268 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -396,7 +542,7 @@
 			};
 			name = Debug;
 		};
-		D7E07D4C1D6EE9CA00F6C268 /* Release */ = {
+		D7E07D941D6EF3D100F6C268 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -434,8 +580,9 @@
 			};
 			name = Release;
 		};
-		D7E07D4E1D6EE9CA00F6C268 /* Debug */ = {
+		D7E07D961D6EF3D100F6C268 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4F4655C99D70B21D31722A0 /* Pods-FDGroupIconViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FDGroupIconViewDemo/Info.plist;
@@ -445,8 +592,9 @@
 			};
 			name = Debug;
 		};
-		D7E07D4F1D6EE9CA00F6C268 /* Release */ = {
+		D7E07D971D6EF3D100F6C268 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06ACD8157C67DAE61F0FFA9C /* Pods-FDGroupIconViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FDGroupIconViewDemo/Info.plist;
@@ -456,8 +604,9 @@
 			};
 			name = Release;
 		};
-		D7E07D511D6EE9CA00F6C268 /* Debug */ = {
+		D7E07D991D6EF3D100F6C268 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79C3137CA1DF0A7E7AC16792 /* Pods-FDGroupIconViewDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FDGroupIconViewDemoTests/Info.plist;
@@ -468,8 +617,9 @@
 			};
 			name = Debug;
 		};
-		D7E07D521D6EE9CA00F6C268 /* Release */ = {
+		D7E07D9A1D6EF3D100F6C268 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9358C4AE29A559CC23D52A10 /* Pods-FDGroupIconViewDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FDGroupIconViewDemoTests/Info.plist;
@@ -480,8 +630,9 @@
 			};
 			name = Release;
 		};
-		D7E07D541D6EE9CA00F6C268 /* Debug */ = {
+		D7E07D9C1D6EF3D100F6C268 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D87B18490BB6F109A31C61C /* Pods-FDGroupIconViewDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FDGroupIconViewDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -491,8 +642,9 @@
 			};
 			name = Debug;
 		};
-		D7E07D551D6EE9CA00F6C268 /* Release */ = {
+		D7E07D9D1D6EF3D100F6C268 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5B284D73A037F2420531EA5 /* Pods-FDGroupIconViewDemoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FDGroupIconViewDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -505,43 +657,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D7E07D1B1D6EE9CA00F6C268 /* Build configuration list for PBXProject "FDGroupIconViewDemo" */ = {
+		D7E07D631D6EF3D000F6C268 /* Build configuration list for PBXProject "FDGroupIconViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7E07D4B1D6EE9CA00F6C268 /* Debug */,
-				D7E07D4C1D6EE9CA00F6C268 /* Release */,
+				D7E07D931D6EF3D100F6C268 /* Debug */,
+				D7E07D941D6EF3D100F6C268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7E07D4D1D6EE9CA00F6C268 /* Build configuration list for PBXNativeTarget "FDGroupIconViewDemo" */ = {
+		D7E07D951D6EF3D100F6C268 /* Build configuration list for PBXNativeTarget "FDGroupIconViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7E07D4E1D6EE9CA00F6C268 /* Debug */,
-				D7E07D4F1D6EE9CA00F6C268 /* Release */,
+				D7E07D961D6EF3D100F6C268 /* Debug */,
+				D7E07D971D6EF3D100F6C268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7E07D501D6EE9CA00F6C268 /* Build configuration list for PBXNativeTarget "FDGroupIconViewDemoTests" */ = {
+		D7E07D981D6EF3D100F6C268 /* Build configuration list for PBXNativeTarget "FDGroupIconViewDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7E07D511D6EE9CA00F6C268 /* Debug */,
-				D7E07D521D6EE9CA00F6C268 /* Release */,
+				D7E07D991D6EF3D100F6C268 /* Debug */,
+				D7E07D9A1D6EF3D100F6C268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7E07D531D6EE9CA00F6C268 /* Build configuration list for PBXNativeTarget "FDGroupIconViewDemoUITests" */ = {
+		D7E07D9B1D6EF3D100F6C268 /* Build configuration list for PBXNativeTarget "FDGroupIconViewDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7E07D541D6EE9CA00F6C268 /* Debug */,
-				D7E07D551D6EE9CA00F6C268 /* Release */,
+				D7E07D9C1D6EF3D100F6C268 /* Debug */,
+				D7E07D9D1D6EF3D100F6C268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D7E07D181D6EE9CA00F6C268 /* Project object */;
+	rootObject = D7E07D601D6EF3D000F6C268 /* Project object */;
 }

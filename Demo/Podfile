@@ -1,0 +1,18 @@
+
+target 'FDGroupIconViewDemo' do
+
+  # Pods for FDGroupIconViewDemo
+
+  pod 'FDGroupIconView', '~> 0.1.0'
+
+  target 'FDGroupIconViewDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FDGroupIconViewDemoUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

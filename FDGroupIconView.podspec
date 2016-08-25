@@ -14,7 +14,8 @@ s.requires_arc = true
 s.source_files = 'FDGroupIconView/**/*.{h,m}'
 s.public_header_files = 'FDGroupIconView/**/*.{h}'
 
-s.frameworks = 'UIKit', 'SDWebImage'
+s.frameworks = 'UIKit'
+s.dependency 'SDWebImage', '~> 3.8.1'
 
 # s.library   = 'iconv'
 # s.libraries = 'iconv', 'xml2'

@@ -8,10 +8,10 @@
 
 #import "FDGroupIconView.h"
 #import "FDIconImageView.h"
-#import "UIImageView+WebCache.h"
+#import <UIImageView+WebCache.h>
 
 #define kDefalutIcon @"defalut.png"
-#define kPlaceHolderIcon @"ddplaceholder.png"
+#define kPlaceHolderIcon @"placeholder.png"
 
 @implementation FDGroupIconView
 

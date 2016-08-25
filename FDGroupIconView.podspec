@@ -16,7 +16,6 @@ s.public_header_files = 'FDGroupIconView/**/*.{h}'
 
 s.frameworks = 'UIKit'
 s.dependency 'SDWebImage', '~> 3.7.3'
-
 # s.library   = 'iconv'
 # s.libraries = 'iconv', 'xml2'
 

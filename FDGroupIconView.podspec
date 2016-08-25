@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = 'FDGroupIconView'
-s.version      = '0.1.0'
+s.version      = '0.1.1'
 s.summary      = 'Setup Group Icon more easier. You just need One line is enough.'
 s.license      = { :type => 'MIT', :file => 'LICENSE' }
 s.authors      = { 'fandylau' => 'fandylau2011@outlook.com' }

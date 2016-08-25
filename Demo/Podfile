@@ -3,7 +3,7 @@ target 'FDGroupIconViewDemo' do
 
   # Pods for FDGroupIconViewDemo
 
-  pod 'FDGroupIconView', '~> 0.1.0'
+  pod 'FDGroupIconView', '~> 0.1.1'
 
   target 'FDGroupIconViewDemoTests' do
     inherit! :search_paths

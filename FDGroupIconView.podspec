@@ -13,6 +13,7 @@ s.requires_arc = true
 
 s.source_files = 'FDGroupIconView/**/*.{h,m}'
 s.public_header_files = 'FDGroupIconView/**/*.{h}'
+s.resource_bundles = { 'FDGroupIconView' => ['FDGroupIconView/FDGroupIconResource.bundle/*.png'] }
 
 s.frameworks = 'UIKit'
 s.dependency 'SDWebImage', '~> 3.7.5'

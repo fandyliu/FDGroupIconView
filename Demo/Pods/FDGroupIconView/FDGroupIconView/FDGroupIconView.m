@@ -11,7 +11,7 @@
 #import "UIImageView+WebCache.h"
 
 #define kDefalutIcon @"defalut.png"
-#define kPlaceHolderIcon @"ddplaceholder.png"
+#define kPlaceHolderIcon @"placeholder.png"
 
 @implementation FDGroupIconView
 
@@ -164,6 +164,11 @@
         r = width * 0.2;
     }
     return r;
+}
+
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    [self updateSubViews];
 }
 
 @end

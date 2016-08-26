@@ -20,11 +20,11 @@
 
 - (NSArray *)titleArray {
     if (_titleArray == nil) {
-        _titleArray = @[@"OneIconView",
-                        @"TwoIconView",
-                        @"ThreeIconView",
-                        @"FourIconView",
-                        @"FiveIconView"];
+        _titleArray = @[@"One Icon GroupIconView",
+                        @"Two Icons GroupIconView",
+                        @"Three Icons GroupIconView",
+                        @"Four Icons GroupIconView",
+                        @"Five Icons GroupIconView"];
     }
     return _titleArray;
 }

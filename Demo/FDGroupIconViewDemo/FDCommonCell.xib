@@ -22,7 +22,7 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YDw-pb-lSP">
-                        <rect key="frame" x="108" y="26" width="42" height="21"/>
+                        <rect key="frame" x="83" y="26" width="42" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
@@ -33,7 +33,7 @@
                     <constraint firstItem="NLc-i8-tXV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="6b3-Dj-tGM"/>
                     <constraint firstAttribute="bottom" secondItem="NLc-i8-tXV" secondAttribute="bottom" constant="4" id="Is8-vV-XGd"/>
                     <constraint firstItem="NLc-i8-tXV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="cVS-Xi-ror"/>
-                    <constraint firstItem="YDw-pb-lSP" firstAttribute="leading" secondItem="NLc-i8-tXV" secondAttribute="trailing" constant="40" id="e0f-wA-o9p"/>
+                    <constraint firstItem="YDw-pb-lSP" firstAttribute="leading" secondItem="NLc-i8-tXV" secondAttribute="trailing" constant="15" id="e0f-wA-o9p"/>
                     <constraint firstItem="YDw-pb-lSP" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ybN-vA-Fm3"/>
                 </constraints>
             </tableViewCellContentView>

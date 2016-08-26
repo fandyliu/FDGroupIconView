@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommonCell" rowHeight="73" id="KGk-i7-Jjw" userLabel="FDCommonCell" customClass="FDCommonCell">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="73"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="374" height="72"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NLc-i8-tXV">
+                        <rect key="frame" x="5" y="5" width="63" height="63"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="NLc-i8-tXV" secondAttribute="height" multiplier="1:1" id="jgB-q6-fYp"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YDw-pb-lSP">
+                        <rect key="frame" x="108" y="26" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="NLc-i8-tXV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="6b3-Dj-tGM"/>
+                    <constraint firstAttribute="bottom" secondItem="NLc-i8-tXV" secondAttribute="bottom" constant="4" id="Is8-vV-XGd"/>
+                    <constraint firstItem="NLc-i8-tXV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="cVS-Xi-ror"/>
+                    <constraint firstItem="YDw-pb-lSP" firstAttribute="leading" secondItem="NLc-i8-tXV" secondAttribute="trailing" constant="40" id="e0f-wA-o9p"/>
+                    <constraint firstItem="YDw-pb-lSP" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ybN-vA-Fm3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="iconImageView" destination="NLc-i8-tXV" id="fly-4O-bqG"/>
+                <outlet property="iconTitle" destination="YDw-pb-lSP" id="xjt-rE-aYg"/>
+            </connections>
+            <point key="canvasLocation" x="-3" y="181.5"/>
+        </tableViewCell>
+    </objects>
+</document>

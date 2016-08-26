@@ -15,5 +15,8 @@
 @property (nonatomic, assign) CGFloat padding;// 越大距离越近默认是1
 @property (nonatomic, strong) NSArray *iconArray;
 - (instancetype)initWithFrame:(CGRect)frame iconArray:(NSArray *)iconArray;
++ (instancetype)groupIconViewWithFrame:(CGRect)frame iconArray:(NSArray *)iconArray;
 
+
+- (UIImage *)getImage;
 @end

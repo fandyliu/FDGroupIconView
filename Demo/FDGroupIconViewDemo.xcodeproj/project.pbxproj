@@ -10,9 +10,13 @@
 		6948846CC4B152AF1BA449A6 /* libPods-FDGroupIconViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7AAA99D5C78DC5C1F6CBCEF /* libPods-FDGroupIconViewDemo.a */; };
 		8A119CD59CAD6451D90E3540 /* libPods-FDGroupIconViewDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 004C125E5DBD1D5D9494B8DE /* libPods-FDGroupIconViewDemoUITests.a */; };
 		CC95C7748511161E46DACBC9 /* libPods-FDGroupIconViewDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56FB4AE71B59D48C9F3E0FDD /* libPods-FDGroupIconViewDemoTests.a */; };
+		D71003BF1D7028C10086355A /* FDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71003BE1D7028C10086355A /* FDMainViewController.m */; };
+		D71003C61D702FFF0086355A /* FDCommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D71003C41D702FFF0086355A /* FDCommonCell.m */; };
+		D71003C71D702FFF0086355A /* FDCommonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D71003C51D702FFF0086355A /* FDCommonCell.xib */; };
+		D71003CB1D7041970086355A /* one.png in Resources */ = {isa = PBXBuildFile; fileRef = D71003CA1D7041970086355A /* one.png */; };
+		D71003CD1D70423E0086355A /* two.png in Resources */ = {isa = PBXBuildFile; fileRef = D71003CC1D70423E0086355A /* two.png */; };
 		D7E07D6D1D6EF3D100F6C268 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E07D6C1D6EF3D100F6C268 /* main.m */; };
 		D7E07D701D6EF3D100F6C268 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E07D6F1D6EF3D100F6C268 /* AppDelegate.m */; };
-		D7E07D731D6EF3D100F6C268 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E07D721D6EF3D100F6C268 /* ViewController.m */; };
 		D7E07D761D6EF3D100F6C268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E07D741D6EF3D100F6C268 /* Main.storyboard */; };
 		D7E07D781D6EF3D100F6C268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E07D771D6EF3D100F6C268 /* Assets.xcassets */; };
 		D7E07D7B1D6EF3D100F6C268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E07D791D6EF3D100F6C268 /* LaunchScreen.storyboard */; };
@@ -46,12 +50,17 @@
 		9D87B18490BB6F109A31C61C /* Pods-FDGroupIconViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDGroupIconViewDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FDGroupIconViewDemoUITests/Pods-FDGroupIconViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7AAA99D5C78DC5C1F6CBCEF /* libPods-FDGroupIconViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FDGroupIconViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F4655C99D70B21D31722A0 /* Pods-FDGroupIconViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDGroupIconViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FDGroupIconViewDemo/Pods-FDGroupIconViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D71003BD1D7028C10086355A /* FDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDMainViewController.h; sourceTree = "<group>"; };
+		D71003BE1D7028C10086355A /* FDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDMainViewController.m; sourceTree = "<group>"; };
+		D71003C31D702FFF0086355A /* FDCommonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCommonCell.h; sourceTree = "<group>"; };
+		D71003C41D702FFF0086355A /* FDCommonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCommonCell.m; sourceTree = "<group>"; };
+		D71003C51D702FFF0086355A /* FDCommonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FDCommonCell.xib; sourceTree = "<group>"; };
+		D71003CA1D7041970086355A /* one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = one.png; sourceTree = "<group>"; };
+		D71003CC1D70423E0086355A /* two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = two.png; sourceTree = "<group>"; };
 		D7E07D681D6EF3D100F6C268 /* FDGroupIconViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDGroupIconViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E07D6C1D6EF3D100F6C268 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D7E07D6E1D6EF3D100F6C268 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7E07D6F1D6EF3D100F6C268 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D7E07D711D6EF3D100F6C268 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D7E07D721D6EF3D100F6C268 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D7E07D751D6EF3D100F6C268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7E07D771D6EF3D100F6C268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7E07D7A1D6EF3D100F6C268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -143,9 +152,14 @@
 			children = (
 				D7E07D6E1D6EF3D100F6C268 /* AppDelegate.h */,
 				D7E07D6F1D6EF3D100F6C268 /* AppDelegate.m */,
-				D7E07D711D6EF3D100F6C268 /* ViewController.h */,
-				D7E07D721D6EF3D100F6C268 /* ViewController.m */,
+				D71003BD1D7028C10086355A /* FDMainViewController.h */,
+				D71003BE1D7028C10086355A /* FDMainViewController.m */,
+				D71003C31D702FFF0086355A /* FDCommonCell.h */,
+				D71003C41D702FFF0086355A /* FDCommonCell.m */,
+				D71003C51D702FFF0086355A /* FDCommonCell.xib */,
 				D7E07D741D6EF3D100F6C268 /* Main.storyboard */,
+				D71003CA1D7041970086355A /* one.png */,
+				D71003CC1D70423E0086355A /* two.png */,
 				D7E07D771D6EF3D100F6C268 /* Assets.xcassets */,
 				D7E07D791D6EF3D100F6C268 /* LaunchScreen.storyboard */,
 				D7E07D7C1D6EF3D100F6C268 /* Info.plist */,
@@ -291,6 +305,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D71003CD1D70423E0086355A /* two.png in Resources */,
+				D71003C71D702FFF0086355A /* FDCommonCell.xib in Resources */,
+				D71003CB1D7041970086355A /* one.png in Resources */,
 				D7E07D7B1D6EF3D100F6C268 /* LaunchScreen.storyboard in Resources */,
 				D7E07D781D6EF3D100F6C268 /* Assets.xcassets in Resources */,
 				D7E07D761D6EF3D100F6C268 /* Main.storyboard in Resources */,
@@ -441,9 +458,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7E07D731D6EF3D100F6C268 /* ViewController.m in Sources */,
+				D71003BF1D7028C10086355A /* FDMainViewController.m in Sources */,
 				D7E07D701D6EF3D100F6C268 /* AppDelegate.m in Sources */,
 				D7E07D6D1D6EF3D100F6C268 /* main.m in Sources */,
+				D71003C61D702FFF0086355A /* FDCommonCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

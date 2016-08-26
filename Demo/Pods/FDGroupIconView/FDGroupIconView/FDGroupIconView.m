@@ -21,6 +21,9 @@
     }
     return self;
 }
++ (instancetype)groupIconViewWithFrame:(CGRect)frame iconArray:(NSArray *)iconArray {
+    return  [[self alloc] initWithFrame:frame iconArray:iconArray];
+}
 
 - (void)setIconArray:(NSArray *)iconArray {
     if (_iconArray.count != 0) {
@@ -32,7 +35,7 @@
 
 - (CGFloat)padding {
     if (_padding <= 0) {
-        _padding = 1;
+        _padding = 0.6;
     }
     return _padding;
 }
@@ -70,7 +73,7 @@
             break;
         case 3:
         {
-            CGFloat paddingy = (width - r * 2 - r * 2 * 0.82 * (3 * 0.5)) * 0.5;
+            CGFloat paddingy = (width - r * 2 - r * 2 * 0.82 * (3 / 2)) * 0.5;
             [self addIconImageView:FDDirectionTypeLeftBottom_3 image:self.iconArray[0] center:CGPointMake(width / 2, r + paddingy)];
             [self addIconImageView:FDDirectionTypeRight image:self.iconArray[1] center:CGPointMake(r, width - r - paddingy)];
             [self addIconImageView:FDDirectionTypeLeftTop_3 image:self.iconArray[2] center:CGPointMake(width - r, width - r - paddingy)];
@@ -169,6 +172,14 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     [self updateSubViews];
+}
+
+- (UIImage *)getImage {
+    UIGraphicsBeginImageContext(self.bounds.size);
+    [self.layer renderInContext:UIGraphicsGetCurrentContext()];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return image;
 }
 
 @end

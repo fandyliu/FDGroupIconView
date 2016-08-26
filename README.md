@@ -26,7 +26,7 @@ See `Demo/FDGroupIconViewDemo.xcodeproj`
 How To Use
 ==============
 
-`you can creat this array by  UIImage  NSURL or NSString(imageName/urlString) `
+`you can creat iconArray by  UIImage  NSURL or NSString(imageName/urlString)`
 
 ``` 
 
@@ -50,5 +50,5 @@ icon.center = CGPointMake(75,75);
 
 License
 ==============
-FDCategories is provided under the MIT license. See LICENSE file for details.
+FDGroupIconView is provided under the MIT license. See LICENSE file for details.
 

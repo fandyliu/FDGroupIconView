@@ -103,9 +103,9 @@
             break;
         case 4:
         {
-            UIImage *image2 = [UIImage imageNamed:@"two"];
+            UIImage *image2 = [UIImage imageNamed:@"two.jpg"];
             NSURL *url4 = [NSURL URLWithString:@"http://v1.qzone.cc/avatar/201505/18/13/28/55597873bc536742.jpg%21200x200.jpg"];
-            NSArray *iconArray = @[@"one.png",// 图片名字
+            NSArray *iconArray = @[@"one.jpg",// 图片名字
                                    image2, // 直接图片
                                    @"http://v1.qzone.cc/avatar/201506/22/14/08/5587a649427f7478.png%21200x200.jpg", // string
                                    url4, // url

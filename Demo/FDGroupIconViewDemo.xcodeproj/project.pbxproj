@@ -13,8 +13,8 @@
 		D71003BF1D7028C10086355A /* FDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71003BE1D7028C10086355A /* FDMainViewController.m */; };
 		D71003C61D702FFF0086355A /* FDCommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D71003C41D702FFF0086355A /* FDCommonCell.m */; };
 		D71003C71D702FFF0086355A /* FDCommonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D71003C51D702FFF0086355A /* FDCommonCell.xib */; };
-		D71003CB1D7041970086355A /* one.png in Resources */ = {isa = PBXBuildFile; fileRef = D71003CA1D7041970086355A /* one.png */; };
-		D71003CD1D70423E0086355A /* two.png in Resources */ = {isa = PBXBuildFile; fileRef = D71003CC1D70423E0086355A /* two.png */; };
+		D761300C1D9290F5001BE9CB /* one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D761300A1D9290F5001BE9CB /* one.jpg */; };
+		D761300D1D9290F5001BE9CB /* two.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D761300B1D9290F5001BE9CB /* two.jpg */; };
 		D7E07D6D1D6EF3D100F6C268 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E07D6C1D6EF3D100F6C268 /* main.m */; };
 		D7E07D701D6EF3D100F6C268 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E07D6F1D6EF3D100F6C268 /* AppDelegate.m */; };
 		D7E07D761D6EF3D100F6C268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E07D741D6EF3D100F6C268 /* Main.storyboard */; };
@@ -55,8 +55,8 @@
 		D71003C31D702FFF0086355A /* FDCommonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCommonCell.h; sourceTree = "<group>"; };
 		D71003C41D702FFF0086355A /* FDCommonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCommonCell.m; sourceTree = "<group>"; };
 		D71003C51D702FFF0086355A /* FDCommonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FDCommonCell.xib; sourceTree = "<group>"; };
-		D71003CA1D7041970086355A /* one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = one.png; sourceTree = "<group>"; };
-		D71003CC1D70423E0086355A /* two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = two.png; sourceTree = "<group>"; };
+		D761300A1D9290F5001BE9CB /* one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = one.jpg; sourceTree = "<group>"; };
+		D761300B1D9290F5001BE9CB /* two.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = two.jpg; sourceTree = "<group>"; };
 		D7E07D681D6EF3D100F6C268 /* FDGroupIconViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDGroupIconViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E07D6C1D6EF3D100F6C268 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D7E07D6E1D6EF3D100F6C268 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -158,8 +158,8 @@
 				D71003C41D702FFF0086355A /* FDCommonCell.m */,
 				D71003C51D702FFF0086355A /* FDCommonCell.xib */,
 				D7E07D741D6EF3D100F6C268 /* Main.storyboard */,
-				D71003CA1D7041970086355A /* one.png */,
-				D71003CC1D70423E0086355A /* two.png */,
+				D761300A1D9290F5001BE9CB /* one.jpg */,
+				D761300B1D9290F5001BE9CB /* two.jpg */,
 				D7E07D771D6EF3D100F6C268 /* Assets.xcassets */,
 				D7E07D791D6EF3D100F6C268 /* LaunchScreen.storyboard */,
 				D7E07D7C1D6EF3D100F6C268 /* Info.plist */,
@@ -264,7 +264,7 @@
 		D7E07D601D6EF3D000F6C268 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = fandy;
 				TargetAttributes = {
 					D7E07D671D6EF3D100F6C268 = {
@@ -305,11 +305,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D71003CD1D70423E0086355A /* two.png in Resources */,
+				D761300D1D9290F5001BE9CB /* two.jpg in Resources */,
 				D71003C71D702FFF0086355A /* FDCommonCell.xib in Resources */,
-				D71003CB1D7041970086355A /* one.png in Resources */,
 				D7E07D7B1D6EF3D100F6C268 /* LaunchScreen.storyboard in Resources */,
 				D7E07D781D6EF3D100F6C268 /* Assets.xcassets in Resources */,
+				D761300C1D9290F5001BE9CB /* one.jpg in Resources */,
 				D7E07D761D6EF3D100F6C268 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,8 +530,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -574,8 +576,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";

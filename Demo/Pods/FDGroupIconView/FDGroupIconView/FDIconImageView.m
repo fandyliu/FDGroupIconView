@@ -63,8 +63,7 @@
     if (CGSizeEqualToSize(size, CGSizeZero)) return;
     UIGraphicsBeginImageContextWithOptions(size, NO, 0.0);
     if (UIGraphicsGetCurrentContext() == nil) return;
-    [self drawCircle];
-    [image drawInRect:self.bounds];
+    [self drawCircleWithImage:image];
     UIImage *processedImage = UIGraphicsGetImageFromCurrentImageContext();
     objc_setAssociatedObject(processedImage, kIsDrawImage, @(1), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     self.image = processedImage;
@@ -89,7 +88,7 @@
 }
 
 
-- (void)drawCircle{
+- (void)drawCircleWithImage:(UIImage *)image{
     CGFloat startAngle = 0;
     CGFloat endAngle = 0;
     CGFloat x1 = 0;
@@ -223,8 +222,9 @@
             break;
     }
     
-    CGContextRef context=UIGraphicsGetCurrentContext();
+    CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSetRGBFillColor(context, 0, 0, 1, 1);
+    
     CGContextAddArc(context, centerX, centerY, radius, startAngle, endAngle, 1);
     CGContextAddArcToPoint(context,
                            x1,
@@ -232,8 +232,23 @@
                            x2,
                            y2,
                            radius);
+    
     CGContextClosePath(context);
     CGContextClip(context);
+    [image drawInRect:self.bounds];
+    
+//    CGContextAddArc(context, centerX, centerY, radius - 1, startAngle, endAngle, 1);
+//    CGContextAddArcToPoint(context,
+//                           x1,
+//                           y1,
+//                           x2,
+//                           y2,
+//                           radius);
+//    
+//    CGContextClosePath(context);
+//    CGContextSetRGBStrokeColor(context,1,0,0,1);
+//    CGContextStrokePath(context);
+
 }
 
 - (void)layoutSubviews {
